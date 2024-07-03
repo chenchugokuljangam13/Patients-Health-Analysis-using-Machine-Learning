@@ -101,6 +101,21 @@ The data is collected from HealthData.gov, a U.S. government health data reposit
   ![User Home](media/patientuserhome.png)
 - **User Registration**
   ![User Register Form](media/patientuserregister.png)
+- Confusion matrix
+  ![AdaBoostClassifier](confusion_matrix_AdaBoostClassifier.png)
+  ![DecisionTreeClassifier](confusion_matrix_DecisionTreeClassifier.png)
+  ![ExtraTreesClassifier](confusion_matrix_ExtraTreesClassifier.png)
+  ![GradientBoostingClassifier](confusion_matrix_GradientBoostingClassifier.png)
+  ![KNeighborsClassifier](confusion_matrix_KNeighborsClassifier.png)
+  ![LogisticRegression](confusion_matrix_LogisticRegression.png)
+  ![NaiveBayes](confusion_matrix_NaiveBayes.png)
+  ![RandomForestClassifier](confusion_matrix_RandomForestClassifier.png)
+  ![RidgeClassifier](confusion_matrix_RidgeClassifier.png)
+  ![XGBoostClassifier](confusion_matrix_XGBoostClassifier.png)
+- classifer scores
+  ![score](media/patientalgo1.png)
+  ![score](media/patientalgo2.png)
+  ![score](media/patientalgo3.png)
 - Data set
   ![data set](media/patientdataset.png)
 - **Crime Prediction**
