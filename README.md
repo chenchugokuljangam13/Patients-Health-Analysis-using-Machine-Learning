@@ -1,54 +1,51 @@
 # Patients Health Analysis using Machine Learning
 
-
 ## Project Overview
 This project explores the application of machine learning techniques in analyzing patient health data to improve healthcare outcomes. The primary objective is to develop a predictive model that can forecast patient health conditions based on a variety of input features such as heart rate, body mass index (BMI), and temperature.
 
-## Table of Content
+## Table of Contents
 1. [Introduction](#Introduction)
 2. [Data Description](#Data-Description)
-3. [Project Structure](#Project-structure)
+3. [Project Structure](#Project-Structure)
 4. [Installation](#Installation)
-5. [Data Preprocessing](#Data-preprocessing)
+5. [Data Preprocessing](#Data-Preprocessing)
 6. [Machine Learning](#Machine-Learning)
 7. [Classifiers](#Classifiers)
 8. [Prediction](#Prediction)
 9. [Results](#Results)
 
 ## Introduction
-- As technology advances, vast improvements have been made in the medical field. It is important to know the health status of the patient.
-- A proper analysis is needed to find the root cause of the death. Many researchers use their own method to assess the patient's health. However, in this we show how to analyze the patient’s health using the latest data science and machine learning tools and provide insights from that analysis.
+As technology advances, vast improvements have been made in the medical field. It is important to know the health status of the patient. Proper analysis is needed to find the root cause of health issues. Many researchers use their own methods to assess patient health. This project demonstrates how to analyze patient health using the latest data science and machine learning tools to provide insights from that analysis.
 
-## Data-Description
-The data is collected from HealthData.gov, a U.S. government health data repository, to take the data as input
-- age
-- gender
-- basic heatlth reading
+## Data Description
+The data is collected from HealthData.gov, a U.S. government health data repository. The dataset includes:
+- Age
+- Gender
+- Basic health readings
 
-## Project-Structure
-- Home
-- User
+## Project Structure
+- **Home**
+- **User**
   - Data View
   - [ML](#Machine-Learning)
-    - data preprocessing
-    - train
-    - test
-  - Prediction
-- Admin
+    - Data Preprocessing
+    - Train
+    - Test
+- **Prediction**
+- **Admin**
   - User Details
-- Register
+- **Register**
   - User Registration Form
 
 ## Installation
 - **Install Django**
-  - `pip install django`
-- **Installing requirements.txt**
-  - `pip install -r requirements.txt`
-    - Use the above command to install the packages listed in the requirements file.
-- **Runserver**
-  - `py manage.py runserver`
-    - Use the above command to start the server.
-   
+  ```bash
+  pip install django
+  '''
+## Run Server
+'''
+   py manage.py runserver
+   '''
 ## Data-Preprocessing
 - Data Collection
 - filter data
@@ -89,7 +86,7 @@ The data is collected from HealthData.gov, a U.S. government health data reposit
 - Takes the data given
 - shows the condyion of the patient
 
-## results
+## Results
 - **Home Page**
   ![Home Page](media/patienthome.png)
 - **Admin Page**
