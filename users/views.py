@@ -198,9 +198,9 @@ def predictTrustWorthy(request):
         y_pred = xgb_model.predict([feat_list])
 
         if y_pred[0] == 1:
-            msg = 'Outcome(Alive)'
+            msg = 'Outcome(Patient health condition is normal)'
         else:
-            msg = 'Outcome(Deceased)'
+            msg = 'Outcome(Patient health status is abnormal or critical)'
         return render(request, "users/predictionForm.html", {'msg': msg})
     else:
         return render(request, "users/predictionForm.html", {})
