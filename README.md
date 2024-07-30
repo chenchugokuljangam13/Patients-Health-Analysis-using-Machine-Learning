@@ -37,15 +37,56 @@ The data is collected from HealthData.gov, a U.S. government health data reposit
 - **Register**
   - User Registration Form
 
+
+## Technologies Used
+
+- **Backend**: Django, Python, ML
+- **Frontend**: HTML, CSS, JavaScript, Bootstrap
+- **Database**: SQLite (development), PostgreSQL/MySQL (production)
+- **Deployment**: Docker, Nginx, Gunicorn, AWS/GCP
+
+
 ## Installation
-- **Install Django**
-  ```bash
-  pip install django
-  '''
-## Run Server
-'''
-   py manage.py runserver
-   '''
+
+### Prerequisites
+
+- Python 3.x
+- pip
+- virtualenv (optional but recommended)
+
+### Steps
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/chenchugokuljangam13/Patients-Health-Analysis-using-Machine-Learning.git
+
+2. **Create a virtual environment (optional):**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+3. **Install the dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   
+4. **Change directory:**
+   ```bash
+   cd Patient_Health_Analysis
+
+5. **Apply migrations:**
+   ```bash
+   python manage.py migrate
+
+6. **Create a superuser (optional, for admin access):**
+   ```bash
+   python manage.py createsuperuser
+
+7. **Run the development server:**
+   ```bash
+   python manage.py runserver
+
+ 
 ## Data-Preprocessing
 - Data Collection
 - filter data
@@ -117,3 +158,7 @@ The data is collected from HealthData.gov, a U.S. government health data reposit
   ![data set](media/patientdataset.png)
 - **Crime Prediction**
   ![prediction](media/patientprediction.png)
+
+
+
+
